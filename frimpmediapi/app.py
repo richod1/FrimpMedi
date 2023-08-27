@@ -1,12 +1,11 @@
 from flask import Flask,request,jsonify
 from flask_cors import CORS
 import pickle
-from frimpmediapi import create_app
+
 import numpy as np
 
 app=Flask(__name__)
 CORS(app)
-app=create_app()
 
 MODEL_FILEPATH="frimpmedimodel.pkl"
 
