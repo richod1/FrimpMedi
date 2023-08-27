@@ -1,5 +1,5 @@
 {
-    "Builds":[
+    "builds":[
         {
             "src":"frimpmedi-api/app.py",
             "use":"@vercel/python"
