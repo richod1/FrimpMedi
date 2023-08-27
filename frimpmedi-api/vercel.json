@@ -1,0 +1,16 @@
+{
+    "Builds":[
+        {
+            "src":"frimpmedi-api/app.py",
+            "use":"@vercel/python"
+            
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"frimpmedi-api/app.py"
+        }
+    ]
+    
+}
