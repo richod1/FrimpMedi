@@ -51,3 +51,7 @@ def predict():
 @app.route("/metadata", methods=["GET"])
 def metadata():
     return jsonify({"classes": classes_array.tolist(), "features": list(features_dict)})
+
+if __name__== '__main__':
+    app.run()
+
