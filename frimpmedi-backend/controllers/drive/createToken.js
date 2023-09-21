@@ -18,8 +18,8 @@ const CREDENTIALS_FILE_CONTENT={
       },
 }
 
-const TOKEN_PATH=path.join();
-const CREDENTIALS_PATH=path.join();
+const TOKEN_PATH=path.join(process.cwd(),"token.json");
+const CREDENTIALS_PATH=path.join(process.cwd(),"credentials.json");
 
 const SCOPES=[
     "https://www.googleapis.com/auth/drive",
